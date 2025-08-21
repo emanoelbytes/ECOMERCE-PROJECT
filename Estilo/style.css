@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* Estilo.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #1A2A40;
+    /* Azul marinho - header */
+    --color-secondary: #D4B483;
+    /* Bege dourado - detalhes premium */
+    --color-accent: #7D2E3B;
+    /* Vinho - promoções/destaques */
+    --color-light: #FAFAFA;
+    /* Branco gelo - fundo principal */
+    --color-gray: #A1A1A1;
+    /* Cinza médio - textos secundários */
+    --color-dark: #111111;
+    /* Preto suave - textos fortes */
+    --gold-champagne: #c7a97b;
+    /* Luxo elegante (champagne) */
+    --pure-white: #FFFFFF;
+    /* Branco puro */
+    --gold-classic: #FFD700;
+    /* Dourado clássico mais chamativo */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-gray);
+    padding: 10px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 110px;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.3em;
+    font-weight: 800;
+    margin: 0;
+}
+
+#aurum {
+    color: var(--gold-champagne);
+}
+
+#Tech {
+    color: var(--color-light);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo .fa-bolt-lightning {
+    font-size: 2em;
+    color: var(--gold-champagne);
+    margin-right: 0;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+    padding: 8px 16px;
+    margin: 0 32px;
+    background-color: var(--color-light);
+    border-radius: 24px;
+    border: 1px solid var(--gold-champagne);
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: none;
+    padding: 6px 10px;
+    font-size: 1em;
+}
+
+.fa-magnifying-glass {
+    color: var(--gold-champagne);
+
+}
+
+nav {
+    background-color: #F5F5F5;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.categoria-bnt {
+    margin: 0 15px;
+    /* Espaçamento horizontal entre os botões */
+    padding: 8px 15px;
+    border: none;
+    background: none;
+    color: var(--color-dark);
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+nav button:hover {
+    background: var(--color-secondary);
+    color: var(--color-dark);
+}
+.categoria-bnt.ativo {
+    background: var(--color-secondary);
+    color: var(--color-dark);
+    font-weight: bold;
+}
+.promo-hero {
+ background: linear-gradient(140deg, #7D2E3B, #1A2A40);
+    color: var(--pure-white);
+    text-align: center;
+    padding: 48px 32px;
+}
+.promo-hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
