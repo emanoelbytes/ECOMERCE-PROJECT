@@ -55,7 +55,7 @@ ECOMERCE-PROJECT/
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/aurumtech-ecommerce.git
+   git clone https://github.com/emanoelbytes/ECOMERCE-PROJECT.git
    cd aurumtech-ecommerce
    ```
 
@@ -136,8 +136,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Nome](https://linkedin.com/in/seu-perfil)
+- GitHub: [@emanoelbytes](https://github.com/emanoelbytes)
+- LinkedIn: [João Emanoel](https://www.linkedin.com/in/jo%C3%A3o-emanoel-19898a366/)
 
 ## 🙏 Agradecimentos
 
