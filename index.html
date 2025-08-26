@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="Estilo/style.css">
-    <title>ECCOMERCE</title>
+    <title>AurumTech - E-commerce</title>
 </head>
 
 <body>
@@ -16,40 +16,46 @@
             <h1><span id="aurum">Aurum</span><span id="Tech">Tech</span></h1>
         </div>
         <div class="search-bar">
-            <input type="text" placeholder="Pesquisar..." >
+            <input type="text" placeholder="Pesquisar produtos..." class="input-search">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </header>
+
     <nav>
-        <button class="categoria-bnt ativo">
+        <button class="categoria-bnt ativo" data-categoria="todos">
             <i class="fa-solid fa-list"></i> Todos
         </button>
-        <button class="categoria-bnt">
+        <button class="categoria-bnt" data-categoria="smartphones">
             <i class="fa-solid fa-mobile-screen-button"></i> Smartphones
         </button>
-        <button class="categoria-bnt">
+        <button class="categoria-bnt" data-categoria="laptops">
             <i class="fa-solid fa-laptop"></i> Notebooks
         </button>
-        <button class="categoria-bnt">
+        <button class="categoria-bnt" data-categoria="headphones">
             <i class="fa-solid fa-headphones"></i> Fones
         </button>
-        <button class="categoria-bnt">
+        <button class="categoria-bnt" data-categoria="accessories">
             <i class="fa-solid fa-plug"></i> Acessórios
         </button>
-        <button class="categoria-bnt">
+        <button class="categoria-bnt" data-categoria="smartwatch">
             <i class="fa-solid fa-clock"></i> Smartwatches
         </button>
     </nav>
+
     <div class="promo-hero">
-        <h2>Black Friday Antecipada!!</h2>
-        <p>Até 50% DE desconto em produtos selecionados</p>
+        <h2>Black Friday Antecipada!</h2>
+        <p>Até 50% de desconto em produtos selecionados</p>
     </div>
+
+    <main class="product-list">
+        <div class="produto-container"></div>
+    </main>
 
     <footer>
         <p>&copy; 2025 AurumTech. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
